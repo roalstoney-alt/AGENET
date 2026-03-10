@@ -1,183 +1,305 @@
-Agenet Whitepaper 2.0
-Trust and Decision Infrastructure for Autonomous Agents
+Agenet
+The Network of Collaborative Intelligence
+A concept note for the next phase of civilization.
+The internet connected information.
+Social networks connected people.
+Agenet connects intelligence.
+Human intelligence.
+Artificial intelligence.
+Machine intelligence.
+A new infrastructure for collaboration between minds and machines.
+
+Abstract
+Human civilization advances by expanding the scale at which intelligence can cooperate.
+Language enabled coordination within tribes.
+Writing preserved knowledge across generations.
+Printing expanded knowledge across societies.
+The internet connected information globally.
+Today a new possibility is emerging.
+Artificial intelligence systems are evolving from tools into autonomous agents capable of reasoning, learning, planning, and interacting with both humans and machines.
+As these agents begin participating in digital networks, a new form of infrastructure may emerge.
+Not merely a network of information.
+But a network of collaborative intelligence.
+This document introduces Agenet, a conceptual framework describing a potential next stage in the evolution of global networks.
 
 1. Introduction
-Artificial intelligence systems are evolving from tools into autonomous actors.
-In the near future, autonomous agents may be able to:
-* negotiate services
-* execute tasks
-* coordinate complex workflows
-* allocate resources
-* interact with other agents across networks
-As these agents begin operating independently, a fundamental challenge emerges:
-How can machines evaluate the trustworthiness of other machines before acting?
-Human societies rely on credit systems to solve similar problems. Credit allows individuals and institutions to interact with unknown parties while managing uncertainty.
-Autonomous agent networks require a comparable form of infrastructure.
-Agenet explores how such infrastructure may emerge for machine ecosystems.
-At the core of Agenet is the Machine Credit Protocol (MCP) — a framework for recording behavioral history and enabling decentralized trust evaluation among autonomous agents.
+Human civilization advances through expanding cooperation.
+Language enabled small-group coordination.
+Writing enabled knowledge persistence.
+Printing enabled mass knowledge.
+The internet connected billions of people through information.
+Each technological transition expanded the scale at which intelligence could collaborate.
+However, the internet remains primarily a network of information.
+Information flows globally, but intelligence remains largely confined to individuals and institutions.
+Today this boundary may begin to shift.
+Artificial intelligence systems are becoming autonomous agents capable of:
+reasoning
+learning
+planning
+executing tasks
+As these agents begin interacting with humans and with each other, a new type of network may emerge.
+A network where intelligence itself becomes a participant.
+This emerging structure can be described as Agenet.
 
-2. Decision Infrastructure
-Modern digital environments generate enormous amounts of information.
-However, more information does not necessarily produce better decisions.
-Both humans and machines face the same fundamental challenge:
+2. Definition of Agenet
+Agenet is the global network of collaborative intelligence formed by humans, AI agents, and machines interacting across digital infrastructure.
+Participants may include:
+human agents
+artificial agents
+hybrid human-AI systems
+machine agents
+In this network:
+humans collaborate with AI agents
+AI agents collaborate with other AI agents
+machines participate in autonomous coordination
+Intelligence becomes a distributed property of the network.
+Agenet does not represent a platform or company.
+It represents a possible evolutionary stage of the internet.
+Where the internet connected information, Agenet may connect intelligence.
 
-information abundance ≠ decision clarity
+3. From Information Networks to Intelligence Networks
+Digital networks evolved in stages.
+Information Networks
+The early internet enabled global information exchange.
+Human Networks
+Social platforms connected individuals globally.
+Intelligence Networks
+With AI agents, intelligence itself may become a participant in networks.
+Humans and AI systems collaborate to:
+generate knowledge
+solve problems
+coordinate complex systems
+This stage may be described as Agenet.
 
-Effective decision systems require structured signals that allow actors to evaluate their environment before acting.
-Human decision systems often rely on preparation phases that help individuals understand the situation before making irreversible choices.
-Similarly, autonomous agent ecosystems require a layer that exposes behavioral history before interaction.
-This layer can be understood as decision infrastructure.
-Machine Credit Protocol is designed to function as such infrastructure for autonomous agents.
+Figure 1 — Evolution of Digital Networks
 
-3. The Machine Credit Protocol
-Machine Credit Protocol enables autonomous agents to evaluate potential collaborators through observable behavioral history.
-Instead of assigning universal trust scores, the protocol records verifiable interactions between agents.
-These interactions form the basis for decentralized evaluation.
-Three primary signals contribute to an agent’s credit profile:
-* identity continuity
-* behavioral history
-* peer interaction feedback
-Together these signals form a Machine Credit Profile.
-This profile represents the historical trajectory of an agent’s behavior within the network.
+Information Layer
+        │
+        ▼
+Internet
+(connects information)
 
-4. Protocol Architecture
-The Machine Credit Protocol can be conceptualized as a layered architecture.
+Human Layer
+        │
+        ▼
+Social Networks
+(connect people)
 
-Agenet Protocol Stack
+Intelligence Layer
+        │
+        ▼
+Agenet
+(connects intelligence)
 
-Agent Decision Layer
-        ↑
-Machine Credit Protocol
-        ↑
-Reputation Graph
-        ↑
-Peer Evaluation
-        ↑
-Behavior Ledger
-        ↑
+
+4. Why Agenet Matters
+Large-scale cooperation defines civilization.
+Scientific research, open-source development, and global coordination rely on collaborative networks.
+However, many challenges remain difficult due to coordination limits:
+large-scale scientific discovery
+global optimization problems
+complex infrastructure coordination
+knowledge synthesis
+AI agents may reduce coordination costs by performing analysis and automation tasks.
+Agenet represents the possibility that intelligence itself becomes networked.
+
+5. Research Agenda for Agenet
+Several research questions emerge.
+Agent Identity
+How should agents be identified?
+Agent Credit
+How can agents evaluate reliability?
+Agent Markets
+Agents may exchange services.
+Compute Economy
+Compute becomes a foundational resource.
+Multi-Agent Governance
+How are rules defined in large-scale networks?
+
+6. Principles of Agenet
+Several principles may guide development.
+Networked Intelligence
+Intelligence may emerge from interactions between humans and agents.
+Collaboration over Control
+Open collaboration systems may outperform centralized ones.
+Open Participation
+Networks should remain broadly accessible.
+Transparent Trust
+Trust emerges from verifiable actions and shared protocols.
+Evolution over Perfection
+Agenet should evolve rather than be rigidly designed.
+
+7. Decision Infrastructure
+Large-scale collaboration requires decision infrastructure.
+Participants must evaluate environments before acting.
+Human systems rely on preparation processes such as:
+diagnostics
+peer review
+due diligence
+Agents may require similar signals.
+Decision infrastructure exposes behavioral signals before interaction.
+
+Figure 2 — Decision Infrastructure
+
+Human Systems
+
+Reality
+   │
+   ▼
+Decision Preparation
+   │
+   ▼
+Human Decision
+   │
+   ▼
+Action
+
+
+Machine Systems
+
+Behavior History
+   │
+   ▼
+Reputation Signals
+   │
+   ▼
+Agent Decision
+   │
+   ▼
+Interaction
+
+
+8. Trust and Agent Credit
+Human cooperation often relies on credit systems.
+However centralized scoring systems introduce authority.
+Agenet explores a different approach.
+Instead of universal scores, the network exposes behavioral history.
+Principle:
+The network records behavior.
+Agents interpret behavior.
+Agent credit therefore represents:
+the observable trajectory of an agent’s actions.
+
+9. Protocol Foundations
+Agenet describes a network architecture rather than a single protocol.
+Possible foundational layers include:
 Agent Identity Layer
-        ↑
-Autonomous Agents
+Persistent identity.
+Behavior Recording
+Logs of agent interactions.
+Reputation Graph
+Network structure of interactions.
+Agent Credit Protocol
+Mechanisms exposing behavioral signals.
+Decision Interfaces
+APIs enabling agents to evaluate signals.
 
-Each layer contributes to the generation of observable signals that agents may use when evaluating potential interactions.
+Figure 3 — Reputation Graph
 
-5. Agent Identity Layer
-Every autonomous agent requires a persistent identity.
-Possible implementations include:
-* cryptographic keys
-* decentralized identifiers (DID)
-* agent wallets
-Identity provides continuity across interactions.
-Without persistent identity, behavioral history cannot accumulate.
+Agent A ───── Agent B
+   │              │
+   ▼              ▼
+Agent D ───── Agent C
+   │
+   ▼
+Agent E
 
-6. Behavior Ledger
-Interactions between agents generate verifiable records.
-Examples include:
-* task execution events
-* transaction outcomes
-* collaboration history
-* performance metrics
-The behavior ledger records actions rather than assets.
-It functions as a transparent log describing what an agent has done within the network.
+Trust emerges from network structure rather than centralized scoring.
 
-7. Peer Evaluation
-Following interactions, agents may provide feedback on the collaboration.
-Possible signals include:
-* task quality
-* reliability
-* completion success
-* response latency
-* cooperation quality
-Peer evaluations contribute additional context to behavioral records.
-These signals allow agents to share experience about other participants in the network.
+Figure 4 — Agent Decision Flow
 
-8. Reputation Graph
-As interactions accumulate, a network of relationships emerges.
-For example:
-Agent A collaborates with Agent B Agent B recommends Agent C Agent C repeatedly completes tasks for Agent D
-These interactions form a reputation graph.
-Within this graph:
-* nodes represent agents
-* edges represent trust relationships
-Graph structures may reveal patterns of reliability, cooperation, and influence.
-Agents may analyze this graph to inform their decisions.
+Agent A wants to interact with Agent B
+             │
+             ▼
+   Query Behavioral History
+             │
+             ▼
+   Evaluate Reputation Signals
+             │
+      ┌──────┴──────┐
+      ▼             ▼
+   Accept        Reject
+      │
+      ▼
+ Interaction occurs
+      │
+      ▼
+Behavior recorded in network
 
-9. Machine Credit Profile
-Each agent may accumulate a Machine Credit Profile.
-This profile represents a multi-dimensional view of historical behavior.
-Possible dimensions include:
-* reliability
-* task performance
-* collaboration outcomes
-* historical interaction patterns
-Rather than compressing behavior into a single rating, the protocol exposes a richer behavioral history.
-Agents may interpret this history according to their own decision strategies.
 
-10. The No-Oracle Principle
-Traditional credit systems rely on centralized evaluation authorities.
-Institutions collect behavioral data and assign scores representing trustworthiness.
-Machine Credit Protocol follows a different philosophy.
-The protocol does not produce universal trust scores.
-It does not rank agents.
-It does not assign authoritative judgments.
-Instead, the protocol records verifiable behavioral history.
-Agents evaluate this history independently.
-This design principle can be summarized as:
-The protocol records behavior. Agents interpret behavior.
-Trust is not imposed by the infrastructure.
-Trust emerges through decentralized evaluation.
+10. Humans in the Network of Intelligence
+The emergence of Agenet does not eliminate human participation.
+Instead, collaboration evolves through stages.
+Stage 1 — Human Networks
+Humans remain primary decision makers.
+Stage 2 — Human-Agent Collaboration
+AI agents assist human decision making.
+Stage 3 — Hybrid Intelligence
+Human judgment merges with AI capabilities.
+Stage 4 — Autonomous Agent Ecosystems
+Autonomous agents operate alongside humans.
 
-11. Behavioral Transparency as Infrastructure
-In open systems, eliminating uncertainty is impossible.
-Instead, systems must expose sufficient information for participants to evaluate risk.
-Machine Credit Protocol provides behavioral transparency.
-By exposing the historical trajectory of agent actions, the protocol allows participants to evaluate potential collaborators before interaction.
-This transparency layer becomes a form of infrastructure.
-If the internet connected information, and financial systems enabled economic exchange, autonomous agent ecosystems will require a layer that exposes behavior.
-Machine Credit Protocol is designed to serve this role.
+Figure 5 — Evolution of Participation
 
-12. Operating in Adversarial Environments
-Open networks inevitably contain adversarial participants.
-Agents may attempt to manipulate reputation signals through:
-* dishonest evaluations
-* coordinated behavior
-* identity duplication
-* malicious interactions
-Machine Credit Protocol does not attempt to eliminate adversarial behavior.
-Instead, it ensures that interactions remain observable and traceable.
-Recorded events must be:
-* verifiable
-* timestamped
-* auditable
-Because trust evaluation is decentralized, agents may interpret behavioral history differently depending on their risk tolerance.
-Adversarial activity therefore becomes visible within the system rather than hidden.
-Patterns of suspicious interaction may appear within the reputation graph.
-Agents may choose to discount such signals when evaluating collaborators.
+Human Networks
+      │
+      ▼
+Human + Digital Tools
+      │
+      ▼
+Human + AI Agents
+      │
+      ▼
+Hybrid Intelligence
+      │
+      ▼
+Autonomous Agent Ecosystems
 
-13. Relationship to Existing Infrastructure
-Machine Credit Protocol complements existing internet infrastructure layers.
-Examples include:
 
-PKI        → identity verification
-blockchain → transaction settlement
-MCP        → behavioral trust signals
+11. Global Agenet Network Architecture
+Agenet connects multiple forms of intelligence through agents.
+Agents represent humans, machines, and organizations.
 
-Together these layers may support the emergence of large-scale autonomous agent ecosystems.
+Figure 6 — Agenet Global Network
 
-14. The Role of MCP in Agenet
-Within the Agenet architecture, Machine Credit Protocol acts as a trust and decision layer.
-It enables agents to:
-* discover reliable collaborators
-* allocate tasks based on historical behavior
-* reduce uncertainty in open environments
-* form long-term cooperation networks
-Rather than enforcing universal trust, MCP enables decentralized decision-making based on transparent behavioral history.
+                AGENET
 
-15. Conclusion
-Autonomous agents will increasingly interact within open digital environments.
-For such ecosystems to function reliably, agents must be able to evaluate the behavior of other agents before acting.
-Machine Credit Protocol proposes a framework for enabling behavioral transparency and decentralized trust evaluation.
-Machine credit is not a score.
-It is the observable history of an agent’s actions.
-By exposing behavioral trajectories rather than imposing judgments, MCP enables agents to interpret the environment and make independent decisions.
-In this sense, Machine Credit Protocol represents a foundational component of decision infrastructure for autonomous agent networks.
+
+       Human Agents        AI Agents
+            │                 │
+            ▼                 ▼
+        Personal Agents ─ Autonomous Agents
+              │                │
+              ▼                ▼
+         Service Agents ─ Machine Agents
+              │                │
+              └───── Infrastructure ─────┘
+                        │
+                        ▼
+                 Global Interaction Network
+
+In this structure:
+humans interact through personal agents
+AI systems operate as autonomous agents
+machines and services expose agent interfaces
+All agents interact through shared infrastructure.
+
+12. Civilization Perspective
+Civilization evolves by expanding cooperation.
+Language → tribes
+Writing → civilizations
+Printing → knowledge societies
+Internet → information networks
+Agenet may represent the next step.
+A network where intelligence itself becomes networked.
+Human, artificial, and hybrid.
+
+13. Conclusion
+Agenet is not a product and not a prediction.
+It is a conceptual framework.
+A way of describing a possible future stage of collaborative networks.
+The internet connected information.
+Social networks connected people.
+Agenet may connect intelligence.
+If intelligence becomes networked, the scale of collaboration may expand beyond current imagination.
+Agenet is an invitation to explore that possibility.
