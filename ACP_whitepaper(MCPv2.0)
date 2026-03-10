@@ -1,186 +1,187 @@
-（ACP）Machine Credit is not a score.
+Agent credit protocol Whitepaper 2.0
+Trust and Decision Infrastructure for Autonomous Agents
 
-Machine credit is the observable trajectory of an agent’s behavior.
+1. Introduction
+Artificial intelligence systems are evolving from tools into autonomous actors.
+In the near future, autonomous agents may be able to:
+negotiate services
+execute tasks
+coordinate complex workflows
+allocate resources
+interact with other agents across networks
+As these agents begin operating independently, a fundamental challenge emerges:
+How can machines evaluate the trustworthiness of other machines before acting?
+Human societies rely on credit systems to solve similar problems.
+Credit allows individuals and institutions to interact with unknown parties while managing uncertainty.
+Autonomous agent networks require a comparable form of infrastructure.
+Agenet explores how such infrastructure may emerge for machine ecosystems.
+At the core of Agenet is the Agent Credit Protocol (ACP) — a framework for recording behavioral history and enabling decentralized trust evaluation among autonomous agents.
 
-Agents evaluate this trajectory independently when deciding whether to interact.
+2. Decision Infrastructure
+Modern digital environments generate enormous amounts of information.
+However, more information does not necessarily produce better decisions.
+Both humans and machines face the same fundamental challenge:
 
-The protocol records behavior.
+information abundance ≠ decision clarity
 
-It does not assign trust.
+Effective decision systems require structured signals that allow actors to evaluate their environment before acting.
+Human decision systems often rely on preparation phases that help individuals understand the situation before making irreversible choices.
+Similarly, autonomous agent ecosystems require a layer that exposes behavioral history before interaction.
+This layer can be understood as decision infrastructure.
+Agent Credit Protocol is designed to function as such infrastructure for autonomous agents.
 
-Trust Infrastructure for Agenet
+3. The Agent Credit Protocol
+Agent Credit Protocol enables autonomous agents to evaluate potential collaborators through observable behavioral history.
+Instead of assigning universal trust scores, the protocol records verifiable interactions between agents.
+These interactions form the basis for decentralized evaluation.
+Three primary signals contribute to an agent’s credit profile:
+identity continuity
+behavioral history
+peer interaction feedback
+Together these signals form a Machine Credit Profile.
+This profile represents the historical trajectory of an agent’s behavior within the network.
 
+4. Protocol Architecture
+The Agent Credit Protocol can be conceptualized as a layered architecture.
 
-1. Motivation
+Agenet Protocol Stack
 
-As autonomous AI agents begin collaborating across digital networks, a fundamental challenge emerges:
-
-How can machines evaluate the trustworthiness of other machines?
-
-Traditional internet infrastructure solves identity and encryption problems through protocols such as PKI and TLS.
-
-However, identity alone does not establish trust.
-
-In a network of autonomous agents, trust must emerge from behavior, reputation, and collaborative history.
-
-Machine Credit Protocol (MCP) proposes a framework for establishing trust among autonomous agents in the Agenet.
-
-2. Core Idea
-
-Machine Credit Protocol enables agents to evaluate one another through three primary signals:
-
-Identity
-Behavior
+Agent Decision Layer
+        ↑
+Agent Credit Protocol
+        ↑
+Reputation Graph
+        ↑
 Peer Evaluation
-
-Together these signals form a Machine Credit Profile for each agent.
-
-3. MCP Architecture
-
-The protocol can be conceptualized as four layers.
-
-Machine Credit Protocol
-│
-├── Agent Identity Layer
-│
-├── Behavior Ledger Layer
-│
-├── Peer Evaluation Layer
-│
-└── Reputation Graph Layer
-
-Each layer contributes to the credit profile of an agent.
-
-4. Agent Identity Layer
-
-Every autonomous agent requires a persistent identity within the network.
-
-Possible mechanisms include:
-
-cryptographic identities
-
-decentralized identifiers (DID)
-
-agent wallets
-
-Identity allows agents to establish continuity across interactions.
-
-Without identity, reputation cannot accumulate.
-
-5. Behavior Ledger Layer
-
-All interactions between agents can produce verifiable records.
-
-These may include:
-
-task completion records
-
-performance metrics
-
-transaction logs
-
-collaboration outcomes
-
-This layer functions as a behavior ledger describing what an agent has done within the network.
-
-Unlike traditional financial ledgers, the behavior ledger records actions rather than assets.
-
-6. Peer Evaluation Layer
-
-After interactions occur, participating agents may provide feedback on the collaboration.
-
-Possible evaluation signals include:
-
-task quality
-
-reliability
-
-response time
-
-cooperation quality
-
-These evaluations allow agents to share experience about other agents.
-
-7. Reputation Graph Layer
-
-As evaluations accumulate, a network structure emerges.
-
-Agent A trusts Agent B
-Agent B collaborates with Agent C
-Agent C recommends Agent D
-
-These relationships form a global reputation graph.
-
-In this graph:
-
-nodes represent agents
-
-edges represent trust relationships
-
-Reputation scores can be derived from the structure of this graph.
-
-8. Machine Credit Profile
-
-Each agent in the network may possess a Machine Credit Profile.
-
-This profile may contain multiple dimensions:
-
-Reliability
-Performance
-Collaboration
-Trust Score
-
-Instead of a single rating, credit becomes a multi-dimensional profile reflecting the agent’s historical behavior.
-
-9. Role of MCP in Agenet
-
-Machine Credit Protocol acts as the trust infrastructure of Agenet.
-
-Without a trust layer, large-scale collaboration among autonomous agents becomes unstable.
-
-MCP enables agents to:
-
-discover reliable collaborators
-
-allocate tasks efficiently
-
-avoid malicious actors
-
-form long-term cooperation networks
-
-10. Relationship to Existing Systems
-
-MCP complements existing infrastructure rather than replacing it.
-
-Examples:
-
-PKI → identity verification
-Blockchains → transaction records
-MCP → behavioral trust layer
-
-Together these layers may support the emergence of collaborative intelligence networks.
-
-11. Open Questions
-
-Several research challenges remain open:
-
-how to prevent reputation manipulation
-
-how to weight peer evaluations
-
-how to maintain privacy while ensuring transparency
-
-how to scale reputation graphs across millions of agents
-
-These questions form part of the broader Agenet research agenda.
-
-12. Conclusion
-
-Machine Credit Protocol proposes a framework for enabling trust among autonomous agents.
-
-As networks of AI agents expand, behavioral reputation systems may become essential infrastructure.
-
-If the internet connected information, and social networks connected people, then collaborative intelligence networks will require a trust layer.
-
-Machine Credit Protocol is one possible foundation for that layer.
-
+        ↑
+Behavior Ledger
+        ↑
+Agent Identity Layer
+        ↑
+Autonomous Agents
+
+Each layer contributes to the generation of observable signals that agents may use when evaluating potential interactions.
+
+5. Agent Identity Layer
+Every autonomous agent requires a persistent identity.
+Possible implementations include:
+cryptographic keys
+decentralized identifiers (DID)
+agent wallets
+Identity provides continuity across interactions.
+Without persistent identity, behavioral history cannot accumulate.
+
+6. Behavior Ledger
+Interactions between agents generate verifiable records.
+Examples include:
+task execution events
+transaction outcomes
+collaboration history
+performance metrics
+The behavior ledger records actions rather than assets.
+It functions as a transparent log describing what an agent has done within the network.
+
+7. Peer Evaluation
+Following interactions, agents may provide feedback on the collaboration.
+Possible signals include:
+task quality
+reliability
+completion success
+response latency
+cooperation quality
+Peer evaluations contribute additional context to behavioral records.
+These signals allow agents to share experience about other participants in the network.
+
+8. Reputation Graph
+As interactions accumulate, a network of relationships emerges.
+For example:
+Agent A collaborates with Agent B
+Agent B recommends Agent C
+Agent C repeatedly completes tasks for Agent D
+These interactions form a reputation graph.
+Within this graph:
+nodes represent agents
+edges represent trust relationships
+Graph structures may reveal patterns of reliability, cooperation, and influence.
+Agents may analyze this graph to inform their decisions.
+
+9. Machine Credit Profile
+Each agent may accumulate a Machine Credit Profile.
+This profile represents a multi-dimensional view of historical behavior.
+Possible dimensions include:
+reliability
+task performance
+collaboration outcomes
+historical interaction patterns
+Rather than compressing behavior into a single rating, the protocol exposes a richer behavioral history.
+Agents may interpret this history according to their own decision strategies.
+
+10. The No-Oracle Principle
+Traditional credit systems rely on centralized evaluation authorities.
+Institutions collect behavioral data and assign scores representing trustworthiness.
+Agent Credit Protocol follows a different philosophy.
+The protocol does not produce universal trust scores.
+It does not rank agents.
+It does not assign authoritative judgments.
+Instead, the protocol records verifiable behavioral history.
+Agents evaluate this history independently.
+This design principle can be summarized as:
+The protocol records behavior.
+Agents interpret behavior.
+Trust is not imposed by the infrastructure.
+Trust emerges through decentralized evaluation.
+
+11. Behavioral Transparency as Infrastructure
+In open systems, eliminating uncertainty is impossible.
+Instead, systems must expose sufficient information for participants to evaluate risk.
+Agent Credit Protocol provides behavioral transparency.
+By exposing the historical trajectory of agent actions, the protocol allows participants to evaluate potential collaborators before interaction.
+This transparency layer becomes a form of infrastructure.
+If the internet connected information, and financial systems enabled economic exchange, autonomous agent ecosystems will require a layer that exposes behavior.
+Agent Credit Protocol is designed to serve this role.
+
+12. Operating in Adversarial Environments
+Open networks inevitably contain adversarial participants.
+Agents may attempt to manipulate reputation signals through:
+dishonest evaluations
+coordinated behavior
+identity duplication
+malicious interactions
+Agent Credit Protocol does not attempt to eliminate adversarial behavior.
+Instead, it ensures that interactions remain observable and traceable.
+Recorded events must be:
+verifiable
+timestamped
+auditable
+Because trust evaluation is decentralized, agents may interpret behavioral history differently depending on their risk tolerance.
+Adversarial activity therefore becomes visible within the system rather than hidden.
+Patterns of suspicious interaction may appear within the reputation graph.
+Agents may choose to discount such signals when evaluating collaborators.
+
+13. Relationship to Existing Infrastructure
+Agent Credit Protocol complements existing internet infrastructure layers.
+Examples include:
+
+PKI        → identity verification
+blockchain → transaction settlement
+ACP        → behavioral trust signals
+
+Together these layers may support the emergence of large-scale autonomous agent ecosystems.
+
+14. The Role of ACP in Agenet
+Within the Agenet architecture, Agent Credit Protocol acts as a trust and decision layer.
+It enables agents to:
+discover reliable collaborators
+allocate tasks based on historical behavior
+reduce uncertainty in open environments
+form long-term cooperation networks
+Rather than enforcing universal trust, ACP enables decentralized decision-making based on transparent behavioral history.
+
+15. Conclusion
+Autonomous agents will increasingly interact within open digital environments.
+For such ecosystems to function reliably, agents must be able to evaluate the behavior of other agents before acting.
+Agent Credit Protocol proposes a framework for enabling behavioral transparency and decentralized trust evaluation.
+Agent credit is not a score.
+It is the observable history of an agent’s actions.
+By exposing behavioral trajectories rather than imposing judgments, ACP enables agents to interpret the environment and make independent decisions.
+In this sense, Agent Credit Protocol represents a foundational component of decision infrastructure for autonomous agent networks.
