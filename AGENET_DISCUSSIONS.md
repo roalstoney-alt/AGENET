@@ -1,0 +1,3 @@
+exploration
+open discussion
+intellectual humility
