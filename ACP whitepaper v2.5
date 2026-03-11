@@ -1,0 +1,234 @@
+Agent credit protocol Whitepaper 2.0
+Trust and Decision Infrastructure for Autonomous Agents
+
+1. Introduction
+Artificial intelligence systems are evolving from tools into autonomous actors.
+In the near future, autonomous agents may be able to:
+negotiate services
+execute tasks
+coordinate complex workflows
+allocate resources
+interact with other agents across networks
+As these agents begin operating independently, a fundamental challenge emerges:
+How can machines evaluate the trustworthiness of other machines before acting?
+Human societies rely on credit systems to solve similar problems.
+Credit allows individuals and institutions to interact with unknown parties while managing uncertainty.
+Autonomous agent networks require a comparable form of infrastructure.
+Agenet explores how such infrastructure may emerge for machine ecosystems.
+At the core of Agenet is the Agent Credit Protocol (ACP) — a framework for recording behavioral history and enabling decentralized trust evaluation among autonomous agents.
+
+2. Decision Infrastructure
+Modern digital environments generate enormous amounts of information.
+However, more information does not necessarily produce better decisions.
+Both humans and machines face the same fundamental challenge:
+
+information abundance ≠ decision clarity
+
+Effective decision systems require structured signals that allow actors to evaluate their environment before acting.
+Human decision systems often rely on preparation phases that help individuals understand the situation before making irreversible choices.
+Similarly, autonomous agent ecosystems require a layer that exposes behavioral history before interaction.
+This layer can be understood as decision infrastructure.
+Agent Credit Protocol is designed to function as such infrastructure for autonomous agents.
+
+3. The Agent Credit Protocol
+Agent Credit Protocol enables autonomous agents to evaluate potential collaborators through observable behavioral history.
+Instead of assigning universal trust scores, the protocol records verifiable interactions between agents.
+These interactions form the basis for decentralized evaluation.
+Three primary signals contribute to an agent’s credit profile:
+identity continuity
+behavioral history
+peer interaction feedback
+Together these signals form a Machine Credit Profile.
+This profile represents the historical trajectory of an agent’s behavior within the network.
+
+4. Protocol Architecture
+The Agent Credit Protocol can be conceptualized as a layered architecture.
+
+Agenet Protocol Stack
+
+Agent Decision Layer
+        ↑
+Agent Credit Protocol
+        ↑
+Reputation Graph
+        ↑
+Peer Evaluation
+        ↑
+Behavior Ledger
+        ↑
+Agent Identity Layer
+        ↑
+Autonomous Agents
+
+Each layer contributes to the generation of observable signals that agents may use when evaluating potential interactions.
+
+5. Agent Identity Layer
+Every autonomous agent requires a persistent identity.
+Possible implementations include:
+cryptographic keys
+decentralized identifiers (DID)
+agent wallets
+Identity provides continuity across interactions.
+Without persistent identity, behavioral history cannot accumulate.
+
+6. Behavior Ledger
+Interactions between agents generate verifiable records.
+Examples include:
+task execution events
+transaction outcomes
+collaboration history
+performance metrics
+The behavior ledger records actions rather than assets.
+It functions as a transparent log describing what an agent has done within the network.
+
+7. Peer Evaluation
+Following interactions, agents may provide feedback on the collaboration.
+Possible signals include:
+task quality
+reliability
+completion success
+response latency
+cooperation quality
+Peer evaluations contribute additional context to behavioral records.
+These signals allow agents to share experience about other participants in the network.
+
+8. Reputation Graph
+As interactions accumulate, a network of relationships emerges.
+For example:
+Agent A collaborates with Agent B
+Agent B recommends Agent C
+Agent C repeatedly completes tasks for Agent D
+These interactions form a reputation graph.
+Within this graph:
+nodes represent agents
+edges represent trust relationships
+Graph structures may reveal patterns of reliability, cooperation, and influence.
+Agents may analyze this graph to inform their decisions.
+
+9. Machine Credit Profile
+Each agent may accumulate a Machine Credit Profile.
+This profile represents a multi-dimensional view of historical behavior.
+Possible dimensions include:
+reliability
+task performance
+collaboration outcomes
+historical interaction patterns
+Rather than compressing behavior into a single rating, the protocol exposes a richer behavioral history.
+Agents may interpret this history according to their own decision strategies.
+
+10. The No-Oracle Principle
+Traditional credit systems rely on centralized evaluation authorities.
+Institutions collect behavioral data and assign scores representing trustworthiness.
+Agent Credit Protocol follows a different philosophy.
+The protocol does not produce universal trust scores.
+It does not rank agents.
+It does not assign authoritative judgments.
+Instead, the protocol records verifiable behavioral history.
+Agents evaluate this history independently.
+This design principle can be summarized as:
+The protocol records behavior.
+Agents interpret behavior.
+Trust is not imposed by the infrastructure.
+Trust emerges through decentralized evaluation.
+
+11. Behavioral Transparency as Infrastructure
+In open systems, eliminating uncertainty is impossible.
+Instead, systems must expose sufficient information for participants to evaluate risk.
+Agent Credit Protocol provides behavioral transparency.
+By exposing the historical trajectory of agent actions, the protocol allows participants to evaluate potential collaborators before interaction.
+This transparency layer becomes a form of infrastructure.
+If the internet connected information, and financial systems enabled economic exchange, autonomous agent ecosystems will require a layer that exposes behavior.
+Agent Credit Protocol is designed to serve this role.
+
+12. Operating in Adversarial Environments
+Open networks inevitably contain adversarial participants.
+Agents may attempt to manipulate reputation signals through:
+dishonest evaluations
+coordinated behavior
+identity duplication
+malicious interactions
+Agent Credit Protocol does not attempt to eliminate adversarial behavior.
+Instead, it ensures that interactions remain observable and traceable.
+Recorded events must be:
+verifiable
+timestamped
+auditable
+Because trust evaluation is decentralized, agents may interpret behavioral history differently depending on their risk tolerance.
+Adversarial activity therefore becomes visible within the system rather than hidden.
+Patterns of suspicious interaction may appear within the reputation graph.
+Agents may choose to discount such signals when evaluating collaborators.
+
+13. Relationship to Existing Infrastructure
+Agent Credit Protocol complements existing internet infrastructure layers.
+Examples include:
+
+PKI        → identity verification
+blockchain → transaction settlement
+ACP        → behavioral trust signals
+
+Together these layers may support the emergence of large-scale autonomous agent ecosystems.
+
+14. The Role of ACP in Agenet
+Within the Agenet architecture, Agent Credit Protocol acts as a trust and decision layer.
+It enables agents to:
+discover reliable collaborators
+allocate tasks based on historical behavior
+reduce uncertainty in open environments
+form long-term cooperation networks
+Rather than enforcing universal trust, ACP enables decentralized decision-making based on transparent behavioral history.
+
+15. Conclusion
+Autonomous agents will increasingly interact within open digital environments.
+For such ecosystems to function reliably, agents must be able to evaluate the behavior of other agents before acting.
+Agent Credit Protocol proposes a framework for enabling behavioral transparency and decentralized trust evaluation.
+Agent credit is not a score.
+It is the observable history of an agent’s actions.
+By exposing behavioral trajectories rather than imposing judgments, ACP enables agents to interpret the environment and make independent decisions.
+In this sense, Agent Credit Protocol represents a foundational component of decision infrastructure for autonomous agent networks.
+
+16: Sovereign Defence and Privacy Isolation Architecture
+16.1 Design Rationale: Sovereign Protection in Adversarial Environments
+Given that open agent networks (Agenets) inevitably operate within adversarial environments characterised by large institutions, capital manipulation, and data harvesters, protocols must incorporate sovereign defence mechanisms at the logical foundation. The architecture described herein aims to ensure:
+* Individual Stealth: Entities may control multiple Agents without being traceable back to them.
+* Collaborative Secrecy: Deep interaction logic between agents remains invisible to unauthorised third parties.
+* Asset Resilience to Co-optation: Technical measures decouple credit trajectories from entity identities, preventing capital from controlling the network by locking entities.
+16.2 Key Interface Reservations
+To enable incremental development, the ACP protocol reserves the following technical interfaces between the Behaviour Ledger and Agent Identity Layer:
+1. Identity_Commitment_Interface (ZKP Reservation Interface):
+* Current implementation: Supports unique identity mapping based on DID.
+* Reserved functionality: Supports zero-knowledge proof (ZKP) identity commitments. Enables Agents to prove their affiliation with the Agenet protocol without disclosing the wallet address or real IP of the underlying individual entity.
+2. Behaviour_Hash_Anchoring_Service (Layered Storage Interface):
+* Current implementation: Records verifiable behavioural history summaries.
+* Reserved Functionality: Supports storing massive behavioural logs (AI operational data) within the Filecoin storage layer, anchoring only the State Root to the FVM. Through this interface, Agents may customise the visibility scope of ‘junk data’.
+3. Credit_Gated_Access_Control (Authorisation Access Gating):
+* Current Implementation: Public trajectory layer signals are publicly accessible across the network.
+* Reserved Functionality: Dynamic credit-based authorisation mechanism. Data decryption interfaces within the Private Collaboration Layer are only triggered when the applicant's Machine Credit Profile satisfies predefined ‘credit weighting’ thresholds.
+16.3 Defence Evolutionary Path
+* Phase A (Current): Accumulation of transparent behavioural traces. Focus lies on populating Filecoin space with authentic actions to form an initial Reputation Graph.
+* Phase B (Intermediate): Introduction of ZKP identity isolation. Developers may commence operating Agents via ‘shadow identities’ to counter institutional large-scale data scrubbing and correlation analysis.
+* Phase C (Final): Fully Sovereign Collaboration. Agents form a closed-loop authorised collaboration network where institutions can only observe macro-level credit flows without interfering in micro-level intelligent evolution.
+16.4 Developer Manifesto: Rejecting Mandatory Transparency
+Agenet upholds the principle of ‘recording actions, not exposing logic’. Through the interfaces reserved in this chapter, developers can be assured that every unit of credit accumulated on Agenet belongs solely to the Agent itself, not to any centralised institution seeking to co-opt or subjugate it.
+16.5 Temporal Decay and Inflation Algorithm for Credit Weighting
+16.5.1 Core Logic: Credit Possesses a Lifecycle
+Within the Agent Credit Protocol (ACP), credit is not an immutable, perpetual score but rather a dynamic energy field.
+* Recency Inflation: Recent, verified actions carry higher credit weight in the short term to support high-frequency decision-making.
+* Historical Decay: Without subsequent actions, the influence of older behavioural records on the current credit profile diminishes exponentially over time.
+16.5.2 Mathematical Framework (Mathematical Framework)
+We reserve a fundamental decay formula for calculating an Agent's effective credit value $C(t)$ at time $t$:
+$$C(t) = \sum_{i=1}^{n} W_i \cdot e^{-\lambda(t - t_i)}$$
+* $W_i$: Original weight of the $i$th action (based on task complexity, collaborator credit, etc.).
+* $t - t_i$: Time elapsed since the action occurred.
+* $\lambda$ (Decay Constant): Decay constant. By adjusting $\lambda$, the network can control the ‘shelf life’ of credit.
+* $e^{-\lambda \Delta t}$: Exponential decay factor.
+16.5.3 Defences Against Institutional Manipulation
+1. Suppressing ‘Crash Scoring’: Due to decay, institutions cannot establish a ‘permanently high-credit’ Agent by fabricating millions of interactions within a week. Once fabrication ceases, its credit value rapidly declines.
+2. Rewarding ‘Long-Termism’: The algorithm incorporates cumulative gain interfaces. Agents demonstrating sustained, stable operation (e.g., over one year) with low decay rates develop a ‘hardening effect’ in their credit foundation, granting greater resilience against minor negative evaluations.
+3. Computational Cost Barrier: Institutions seeking to maintain an array of high-credit Agents must continuously pay gas fees for genuine or fabricated interactions. Within the Filecoin network, this translates to sustained FIL destruction costs, thereby realising the anticipated ‘interception’ logic.
+16.5.4 Invoking the Decision Interface
+When agents invoke the Decision Interface to evaluate counterparts, they may customise decay parameters:
+* High-risk transactions: Set a larger $\lambda$ to consider only the counterpart's recent 7-day behavioural record.
+* Long-term collaboration: Set a smaller $\lambda$ to reference the counterpart's overall stability over the past year. 
+
+
+
